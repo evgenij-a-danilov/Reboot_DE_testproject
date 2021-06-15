@@ -17,10 +17,9 @@
 
 * Таблица `users x friends` с связями user_id -> user_id. 
    Архив с датасетом будет находиться в HDFS (/data/lab3/var/social_graph.zip). Файл u.users_x_friends содержит все связи, файл u.users — базовые данные по всем пользователем,      файл u.sample - ограниченный набор пар (userid; userid) для использования в дополнительном задании.
-   Справочник lab_data.global_dictionary находится в Oracle (используйте данные для входа из вашей домашней работы). 
+* Справочник lab_data.global_dictionary находится в Oracle (используйте данные для входа из вашей домашней работы). 
 
 `!hdfs dfs -ls /data/lab3/var`
-
 * `var` номер варианта проекта
 
 ## Результат
